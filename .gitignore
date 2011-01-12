@@ -1,4 +1,5 @@
 .Python
+*.pyc
 bin/python*
 bin/activate*
 bin/pip*
