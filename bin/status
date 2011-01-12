@@ -1,0 +1,8 @@
+#! /bin/sh
+
+cd lib/python
+git status -s
+cd ../../src/mysite
+git status -s
+cd ../..
+
