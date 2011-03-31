@@ -1,21 +1,15 @@
 #! /bin/sh
 
-. /usr/local/bin/virtualenvwrapper_bashrc
-
-cdvirtualenv
-cd lib/python
+cd "$VIRTUAL_ENV/lib/python"
 echo 'Changes in lib/python:'
 git status -s
 echo
-cdvirtualenv
-cd src/pybtex
+cd "$VIRTUAL_ENV/src/pybtex"
 echo 'Changes in src/pybtex:'
 git status -s
 echo
-cdvirtualenv 
-cd src/mysite
+cd "$VIRTUAL_ENV/src/mysite"
 echo 'Changes in src/mysite:'
 git status -s
 echo
-cdvirtualenv 
 
