@@ -1,5 +1,0 @@
-
-_imagingmath
-_imagingtk
-_imagingcms
-_imaging
