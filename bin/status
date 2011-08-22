@@ -4,10 +4,6 @@ cd "$VIRTUAL_ENV/lib/python"
 echo 'Changes in lib/python:'
 git status -s
 echo
-cd "$VIRTUAL_ENV/src/pybtex"
-echo 'Changes in src/pybtex:'
-git status -s
-echo
 cd "$VIRTUAL_ENV/src/mysite"
 echo 'Changes in src/mysite:'
 git status -s
