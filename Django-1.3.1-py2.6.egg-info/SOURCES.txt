@@ -80,7 +80,7 @@ django/conf/locale/es_AR/__init__.py
 django/conf/locale/es_AR/formats.py
 django/conf/locale/es_AR/LC_MESSAGES/django.mo
 django/conf/locale/es_AR/LC_MESSAGES/django.po
-django/conf/locale/es_MX/__init__py
+django/conf/locale/es_MX/__init__.py
 django/conf/locale/es_MX/formats.py
 django/conf/locale/es_MX/LC_MESSAGES/django.mo
 django/conf/locale/es_MX/LC_MESSAGES/django.po
@@ -1663,6 +1663,7 @@ django/contrib/gis/db/backends/spatialite/__init__.py
 django/contrib/gis/db/backends/spatialite/adapter.py
 django/contrib/gis/db/backends/spatialite/base.py
 django/contrib/gis/db/backends/spatialite/client.py
+django/contrib/gis/db/backends/spatialite/compiler.py
 django/contrib/gis/db/backends/spatialite/creation.py
 django/contrib/gis/db/backends/spatialite/introspection.py
 django/contrib/gis/db/backends/spatialite/models.py
@@ -1907,6 +1908,7 @@ django/contrib/gis/tests/test_measure.py
 django/contrib/gis/tests/test_spatialrefsys.py
 django/contrib/gis/tests/utils.py
 django/contrib/gis/tests/data/geometries.json.gz
+django/contrib/gis/tests/data/texas.dbf
 django/contrib/gis/tests/data/cities/cities.dbf
 django/contrib/gis/tests/data/cities/cities.prj
 django/contrib/gis/tests/data/cities/cities.shp
@@ -3602,6 +3604,9 @@ tests/modeltests/get_or_create/models.py
 tests/modeltests/get_or_create/tests.py
 tests/modeltests/invalid_models/__init__.py
 tests/modeltests/invalid_models/models.py
+tests/modeltests/invalid_models/tests.py
+tests/modeltests/invalid_models/invalid_models/__init__.py
+tests/modeltests/invalid_models/invalid_models/models.py
 tests/modeltests/lookup/__init__.py
 tests/modeltests/lookup/models.py
 tests/modeltests/lookup/tests.py
@@ -4362,8 +4367,6 @@ tests/regressiontests/utils/tests.py
 tests/regressiontests/utils/text.py
 tests/regressiontests/utils/timesince.py
 tests/regressiontests/utils/tzinfo.py
-tests/regressiontests/utils/urls.py
-tests/regressiontests/utils/views.py
 tests/regressiontests/utils/eggs/test_egg.egg
 tests/regressiontests/utils/test_module/__init__.py
 tests/regressiontests/utils/test_module/bad_module.py

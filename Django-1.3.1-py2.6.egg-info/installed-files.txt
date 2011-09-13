@@ -40,6 +40,8 @@
 ../django/conf/locale/es/formats.py
 ../django/conf/locale/es_AR/__init__.py
 ../django/conf/locale/es_AR/formats.py
+../django/conf/locale/es_MX/__init__.py
+../django/conf/locale/es_MX/formats.py
 ../django/conf/locale/es_NI/__init__.py
 ../django/conf/locale/es_NI/formats.py
 ../django/conf/locale/et/__init__.py
@@ -297,6 +299,7 @@
 ../django/contrib/gis/db/backends/spatialite/adapter.py
 ../django/contrib/gis/db/backends/spatialite/base.py
 ../django/contrib/gis/db/backends/spatialite/client.py
+../django/contrib/gis/db/backends/spatialite/compiler.py
 ../django/contrib/gis/db/backends/spatialite/creation.py
 ../django/contrib/gis/db/backends/spatialite/introspection.py
 ../django/contrib/gis/db/backends/spatialite/models.py
@@ -945,6 +948,8 @@
 ../django/conf/locale/es/formats.pyc
 ../django/conf/locale/es_AR/__init__.pyc
 ../django/conf/locale/es_AR/formats.pyc
+../django/conf/locale/es_MX/__init__.pyc
+../django/conf/locale/es_MX/formats.pyc
 ../django/conf/locale/es_NI/__init__.pyc
 ../django/conf/locale/es_NI/formats.pyc
 ../django/conf/locale/et/__init__.pyc
@@ -1202,6 +1207,7 @@
 ../django/contrib/gis/db/backends/spatialite/adapter.pyc
 ../django/contrib/gis/db/backends/spatialite/base.pyc
 ../django/contrib/gis/db/backends/spatialite/client.pyc
+../django/contrib/gis/db/backends/spatialite/compiler.pyc
 ../django/contrib/gis/db/backends/spatialite/creation.pyc
 ../django/contrib/gis/db/backends/spatialite/introspection.pyc
 ../django/contrib/gis/db/backends/spatialite/models.pyc
@@ -1838,8 +1844,6 @@
 ../django/conf/locale/es/LC_MESSAGES/django.po
 ../django/conf/locale/es_AR/LC_MESSAGES/django.mo
 ../django/conf/locale/es_AR/LC_MESSAGES/django.po
-../django/conf/locale/es_MX/__init__py
-../django/conf/locale/es_MX/formats.py
 ../django/conf/locale/es_MX/LC_MESSAGES/django.mo
 ../django/conf/locale/es_MX/LC_MESSAGES/django.po
 ../django/conf/locale/et/LC_MESSAGES/django.mo
@@ -3308,6 +3312,7 @@
 ../django/contrib/gis/templates/gis/kml/placemarks.kml
 ../django/contrib/gis/templates/gis/sitemaps/geo_sitemap.xml
 ../django/contrib/gis/tests/data/geometries.json.gz
+../django/contrib/gis/tests/data/texas.dbf
 ../django/contrib/gis/tests/data/cities/cities.dbf
 ../django/contrib/gis/tests/data/cities/cities.prj
 ../django/contrib/gis/tests/data/cities/cities.shp
